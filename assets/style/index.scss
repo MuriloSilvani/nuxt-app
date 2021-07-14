@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+@import './commom/color.scss';
+@import './commom/sizes.scss';
+
+body {
+  font: var(--font) Quicksand, sans-serif;
+  color: var(--text);
+  background: var(--background);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap);
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
